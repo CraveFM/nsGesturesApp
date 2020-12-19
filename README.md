@@ -99,13 +99,13 @@ $ ns create nsGesturesApp --template @nativescript/template-blank-ng
 
 - [ ] Let finish with the XML template
 
-```
+```xml
 <ActionBar>
     <Label text="Gestures 👌"></Label>
 </ActionBar>
 ```
 
-```
+```xml
 <GridLayout rows="auto, auto, *">
 	<Label row="0" class="target" text="Target Area"
 		(tap)="onTap()"
