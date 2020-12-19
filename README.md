@@ -67,6 +67,33 @@ $ ns create nsGesturesApp --template @nativescript/template-blank-ng
     }
 ```
 
+:round_pushpin: Styles
+
+- [ ] Add the `styleUrls` operator to the `@Component` decorator
+
+```typescript
+@Component({
+    selector: "Home",
+    templateUrl: "./home.component.html",
+    styleUrls: ["./home.component.css"]
+})
+```
+
+- [ ] In the `HomeComponent` stylesheet add the following stylesheet classes
+
+```css
+.target {
+    background-color: red;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    height: 150;
+}
+.instructions {
+    padding: 20;
+}
+```
+
 
 :round_pushpin: Template
 
