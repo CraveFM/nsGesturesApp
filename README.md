@@ -79,7 +79,7 @@ $ ns create nsGesturesApp --template @nativescript/template-blank-ng
 })
 ```
 
-- [ ] In the `HomeComponent` stylesheet add the following stylesheet classes
+- [ ] Let's add a new `home.component.css` stylesheet and add the following stylesheet classes
 
 ```css
 .target {
@@ -98,6 +98,12 @@ $ ns create nsGesturesApp --template @nativescript/template-blank-ng
 :round_pushpin: Template
 
 - [ ] Let finish with the XML template
+
+```
+<ActionBar>
+    <Label text="Gestures 👌"></Label>
+</ActionBar>
+```
 
 ```
 <GridLayout rows="auto, auto, *">
