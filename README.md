@@ -105,11 +105,16 @@ import { SwipeDirection } from "@nativescript/core";
 
 - [ ] Let finish with the XML template
 
+* replace the current `<ActionBar>`
+
 ```xml
 <ActionBar>
     <Label text="Gestures 👌"></Label>
 </ActionBar>
 ```
+
+* replace the current `<GridLayout>` with a more sophisticated one
+
 
 ```xml
 <GridLayout rows="auto, auto, *">
