@@ -67,6 +67,12 @@ $ ns create nsGesturesApp --template @nativescript/template-blank-ng
     }
 ```
 
+- [ ] Let's not forget to import  the `SwipeDirection` `enum` from the `core` library
+
+```typescript
+import { SwipeDirection } from "@nativescript/core";
+```
+
 :round_pushpin: Styles
 
 - [ ] Add the `styleUrls` operator to the `@Component` decorator
