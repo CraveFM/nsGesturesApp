@@ -108,7 +108,7 @@ import { SwipeDirection } from "@nativescript/core";
 * replace the current `<ActionBar>`
 
 ```xml
-<ActionBar>
+<ActionBar class="action-bar">
     <Label text="Gestures 👌"></Label>
 </ActionBar>
 ```
