@@ -1,7 +1,23 @@
 <ActionBar>
-    <Label text="Home"></Label>
+    <Label text="Gestures 👌"></Label>
 </ActionBar>
 
-<GridLayout>
-    <!-- Add your page content here -->
+<GridLayout rows="auto, auto, *">
+	<Label row="0" class="target" text="Target Area"
+		(tap)="onTap()"
+		(doubleTap)="onDoubleTap()"
+		(longPress)="onLongPress()"
+		(swipe)="onSwipe($event)"
+		(pan)="onPan()"
+		(pinch)="onPinch()"
+		(rotation)="onRotation()">
+	</Label>
+
+	<Label row="1" class="instructions" textWrap="true" text="Try to perform the following gestures in the target area—tap, double tap, long press, swipe, pinch, and rotation."></Label>
+
+	<ListView row="2" class="list-group" [items]="log">
+		<ng-template let-entry="item">
+			<Label class="m-20" [text]="entry.text"></Label>
+		</ng-template>
+	</ListView>
 </GridLayout>

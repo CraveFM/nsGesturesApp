@@ -1,0 +1,10 @@
+.target {
+    background-color: red;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    height: 150;
+}
+.instructions {
+    padding: 20;
+}
